@@ -9,7 +9,8 @@ public class Connection {
 	
 public String client() throws IOException {
 		
-		String hostname = "192.168.98.1";
+		
+		String hostname = "172.16.22.1";
 		int port = Integer.parseInt("31337");
 		String input = "";
 		try {
